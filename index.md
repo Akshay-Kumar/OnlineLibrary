@@ -1,37 +1,20 @@
-## Welcome to GitHub Pages
+## Online library
 
-You can use the [editor on GitHub](https://github.com/Akshay-Kumar/OnlineLibrary/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+# Modules
+The online library system is a .Net based web application, it consists of 2-tier architecture. The system is divided into two major components:
+1 Client web application
+1 Webservice provider
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Client application consists of
+1 User interface layer
+1 Busines logic layer
+1 Data access layer
 
-### Markdown
+# User interface layer
+This layer is responsible for managing graphical display and user interface.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+# Business layer
+This layer consists of all major algorithmis and logic used for performing and controlling major as well as minor functionalities of the application. It is responsible for user management, administration, communication between gui and data access layer,etc.
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Akshay-Kumar/OnlineLibrary/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+# Data access layer
+The data access layer is responsible for communicating with the webservice through remote invocation using SOAP through web service methods to fetch data from the central database repository.
