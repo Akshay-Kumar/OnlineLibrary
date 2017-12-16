@@ -2,8 +2,8 @@
 
 ## Modules
 The online library system is a .Net based web application, it consists of 2-tier architecture. The system is divided into two major components:
-### 1. Client web application
-### 1. Webservice provider
+#### 1. Client web application
+#### 2. Webservice provider
 
 Client application consists of
 1. User interface layer
