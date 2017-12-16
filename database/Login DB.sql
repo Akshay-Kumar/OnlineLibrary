@@ -1,0 +1,13 @@
+USE BookDB
+CREATE TABLE [dbo].[TblLogin](
+[UserId] [varchar](100) NOT NULL,
+[password] [varchar](100) NOT NULL,
+PRIMARY KEY CLUSTERED
+(
+[UserId] ASC
+)WITH (PAD_INDEX  = OFF, STATISTICS_NORECOMPUTE  = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS  = ON, ALLOW_PAGE_LOCKS  = ON) ON [PRIMARY]
+) ON [PRIMARY]
+
+INSERT INTO TblLogin VALUES ('Admin','admin@123')
+INSERT INTO TblLogin VALUES ('Akshay','admin@123')
+INSERT INTO TblLogin VALUES ('Alok','admin@123')

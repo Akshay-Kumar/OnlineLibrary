@@ -1,0 +1,68 @@
+h1.s1
+{
+background-color:#3366CC;
+color:#0ffff0
+}
+p.s1
+{ 
+	color: White;
+	font-size: 50px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-style: italic;
+}
+p.s2
+{
+text-align: right;	
+}
+div.s1
+{
+font-size:70px;
+color:Orange;
+background-color:#000000;
+text-decoration: underline;
+}
+div.s2
+{
+	color: White;
+	font-size: x-large;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-style: italic;
+}
+div.login
+{
+		color:white;
+}
+
+div.abc
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: x-large;
+	font-weight: bold;
+	font-style: italic;
+	color: #FFFFFF;
+}
+
+body
+{
+	background-image: url('book.jpg');
+	background-repeat:repeat-y;
+	background-position:center;
+	margin-right: auto;
+	color: white;
+	font-family: 'Arial Black';
+	font-size: large;
+	width:1230px;
+}
+td.style1
+{
+	color:white;
+
+}
+td.style2
+{
+	
+	Width:200;
+	height :100px;
+}
